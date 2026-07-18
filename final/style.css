@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    font-family: var(--fonte02);
+}
+
+:root {
+    --cor01: antiquewhite;
+    --cor02: #ffbd68;
+    --cor03: #a35c00;
+    --cor04: #583200;
+    --fonte01: "DM Sans";
+    --fonte02: "DM Mono";
+
+
+}
+    
+
+body {
+    background-color: var(--cor01);
+    font-family: var(--fonte01);
+    font-weight: weight;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+div#sectionUm {
+    background-color: white;
+    margin: 40px;
+    height: 250px;
+    width: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+    box-shadow: #6c3d0038 0px 0px 10px;
+}
+
+div p {
+
+    margin: 10px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+
+}
+
+div#res {
+    background-color: rgb(255, 255, 255);
+    margin: 40px;
+    height: 600px;
+    width: 430px;
+
+    border-radius: 15px;
+    box-shadow: #6c3d0038 0px 0px 10px;
+
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+div#resTitle {
+    position: absolute; /* Faz ela flutuar */
+    top: 0;             /* Empurra para o topo da div pai */
+    left: 0;            /* Alinha à esquerda */
+    width: 100%;
+}
+
+div#resCadastro p {
+    display: flex;
+    margin: 20px; 
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border-radius: 5px;
+    border: solid var(--cor03) 2px;
+    margin: 0px auto 20px auto;
+    width: 85%;
+    height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--fonte02);
+
+    box-shadow: #6c3d0038 0px 0px 10px;
+}
+
+button {
+    background-color: var(--cor03);
+    color: var(--cor02);
+    border-radius: 5px;
+    border: solid var(--cor03) 2px;
+    margin: 10px auto;
+    width: 430px;
+    height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--fonte02);
+
+    box-shadow: #6c3d0038 0px 0px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;   
+}
+
+button:hover {
+    background-color: var(--cor04);
+    color: var(--cor02);
+    border: solid var(--cor04) 2px;
+}
+
+div h1 {
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px;
+}
